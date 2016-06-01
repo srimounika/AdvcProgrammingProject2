@@ -1,0 +1,49 @@
+/*This is the third test file which test, where many number of declarations and id tails are checked*/
+void main(){
+    int a,b;
+    int c,d,e;
+    int var_1, var_2;
+    int var3 ,var4;
+    
+    /*statements beforre and after the iterator*/
+    a=100;
+    /*checking expressions*/
+    a=b+10;
+    while(a>b){
+        a=b+10;
+        /*nested if -else*/
+        if(a<30){
+            if(var_1<= var_2){
+                var_1= var_2-1;
+            }
+            else
+            {
+                var3= var3-1;
+            }
+            a=b-5;
+        }
+        else{
+            a=b-1;
+        }
+        if(b>20){
+            b=b-1;
+        }
+        else
+        {
+            c=c-1;
+        }
+        a=b+1;
+    }
+    b=a+b;
+    if(c==20){
+        c=20-1;
+    }
+    else
+    {
+        /*done with my loops*/
+       while(a<c){
+  	WRITE(a);
+       } 
+       c=100;
+    }
+}

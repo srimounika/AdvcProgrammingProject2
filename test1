@@ -1,0 +1,16 @@
+void main()
+{
+    int a,b;	/*declarations*/
+    READ(a);
+    READ(b);
+    while(a <> b){	
+        if(a>b){	
+            a=a-b;
+        }
+        else{
+            b=b-a;
+        }
+    }
+    WRITE(a);
+    /*printf("GCD of given two numbers is %d",a);*/
+}

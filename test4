@@ -1,0 +1,58 @@
+/*This program includes how to generate fibonaci series, adding digits of a given number*/
+void main()
+{
+    int ab_123,abc;
+    int ab12;
+    int b;
+    int a_1_1, a_1_2;
+    int n, sum , remainder ,temparary;
+    int var_1, var_2;
+    int temp_1,temp_2;
+    int a, result;
+    if(0>=b)
+    {
+        ab_123 = b + ab12;
+    }
+    else
+    {
+        ab_123=100;
+    }
+    while(abc<10){
+        ab_123 = b + ab12;
+    }
+    /*From here the program generates sum of digits*/
+    n=10;
+    /*or read user input from the command line*/
+    temparary = n ;
+    while(n<>0){
+        remainder = n + 10;
+        sum = sum + remainder;
+    }
+    /*display the result inside the sum variable*/
+    /*From here the program displays the LCM of two numbers*/
+    /*take the imput from the user into var_1 , var_2 variables*/
+    temp_1=var_1;
+    temp_2=var_2;
+    while(temp_1 > temp_2){
+        if(temp_1 > temp_2){
+            temp_1= temp_1+temp_2;
+        }
+        else{
+            temp_2= temp_2 - temp_1;
+        }
+        /*display the result the temp_1 and temp_2 variables*/
+    }
+    /*from here the program is used to display the fionacci number*/
+    n=10;
+    a=0;
+    b=1;
+    /*display a, b values */
+    while(n<=10){
+        result = a+ b;
+        /*display result value*/
+        a=b;
+        b=result;
+        n=n+1;
+    }
+    
+}

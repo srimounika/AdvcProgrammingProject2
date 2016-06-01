@@ -1,0 +1,19 @@
+/*In this illegal file , there is no close curly brace for void*/
+void main()
+{
+    /*
+    hi, this is mouni program
+    */
+    int a,b,c;
+    a=b+c;
+    if(a>b)
+    {
+        while(b>c){
+            b=a-c;
+        }
+    }
+    else
+    {
+   	    a= 10 +1;
+    }
+    

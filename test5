@@ -1,0 +1,16 @@
+/*In this illegal program identifier is ended with the underscore*/
+
+void main()
+{
+    /*
+    hi, this is mouni program
+    */
+    int ab123_,b,c;
+    a=b+c;
+    if(a>b)
+    {
+        while(b>c){
+            b=a-c;
+        }
+    }
+}
